@@ -11,7 +11,7 @@
 
  A quick and _extremely_ dirty test for reading facial bloodflow via webcam (eventually for detecting heartrate).
 
-![Lifelens Demo](Lifelens.gif)
+![Lifelens Demo](LifeLens.gif)
 
 ## Basic Algorithm
  - Get a Bounding Box of the Face

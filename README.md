@@ -11,13 +11,13 @@
 
  A quick and _extremely_ dirty test for reading facial bloodflow via webcam (eventually for detecting heartrate).
 
-![Lifelens Demo](LifeLens.gif)
+[![Lifelens Demo](LifeLens.gif)](https://zalo.github.io/LifeLens/)
 
 ## Basic Algorithm
  - Get a Bounding Box of the Face
  - Average up the R and G components of all the pixels in the box
  - Divide the Red Channel by the Green Channel
- - Crop to a fixed range add filtering
+ - Crop to a fixed range and add filtering
 
  ## Limitations
  - Needs strong ambient illumination

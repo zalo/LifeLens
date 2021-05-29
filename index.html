@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Face Tracking</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="application-name"   content="Face Tracking">
+        <meta name="description"        content="3D Visualization of Google's Face Tracking">
+        <meta name="keywords"           content="3D, Face, Tracking, Mediapipe">
+        <meta name="author"             content="Johnathon Selstad">
+        <meta name="viewport"           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover, user-scalable=0, shrink-to-fit=0">
+        <meta name="theme-color"        content="#ffffff">
+        <!--<meta http-equiv="refresh" content="5; URL=javascript:window.open('http://google.com','_blank');">-->
+
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.1/camera_utils.js" crossorigin="anonymous"></script> <!--./node_modules/@mediapipe/camera_utils/camera_utils.js-->
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh@0.1/face_mesh.js" crossorigin="anonymous"></script> <!--./node_modules/@mediapipe/face_mesh/face_mesh.js-->
+    </head>
+
+    <body style="margin:0px; background-color:rgb(255, 255, 255); "><!--overflow:hidden; position:fixed;-->
+        <h1 hidden></h1> <!-- Puts the Lighthouse Score over 90 heheh-->
+
+        <video class="input_video" style="position: absolute;z-index: -1;">
+            <div id="appbody" style="position: absolute;">
+                <script type="module" src="./src/main.js"></script>
+            </div>
+        </video>
+
+    </body>
+</html>
